@@ -11,7 +11,7 @@ D=1; A=1; B=2;
 N=1000; OmMax=10; dom=2*OmMax/N;
 % Spectral densities -> S1, S2, S3, S4
 for i=1:N
-    om(i)=-ommax+(i-1)*dom;
+    om(i)=-OmMax+(i-1)*dom;
     S1(i)=D*A/(pi*(A^2+om(i)^2));
     S2(i)=D*A*(A^2+B^2+om(i)^2)/(pi*((om(i)^2-A^2-B^2)^2+4*A^2*om(i)^2));
     S3(i)=D*(1+3*om(i)^2/A^2)/(2*pi*A*(1+om(i)^2/A^2)^2);
