@@ -1,7 +1,7 @@
 %==========================================================================
 % Tutorial Stochastic Dynamics with Aerospace Applications
 % Topic #4: Spectral density
-% Authors: M.Trifonov 
+% Authors: V.Bobronnikov & M.Trifonov 
 % Email: trifonov.m@yahoo.com
 % Date(dd-mm-yyyy): 13-01-2020
 %==========================================================================
