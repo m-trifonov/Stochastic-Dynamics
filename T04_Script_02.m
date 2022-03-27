@@ -12,7 +12,7 @@ dt=0.2;Fmax=1/dt; % Step time, maximum spectrum frequency
 f=-Fmax:df:Fmax; % Frequency range of spectrum plotting
 
 % Start simulink model
-sim('SimModel_3');
+sim('T03_SimModel_01');
 
 % Fourier transformation for positive frequencies
 s=fft(X1(:,2)); 
