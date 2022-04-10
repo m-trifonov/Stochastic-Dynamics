@@ -19,7 +19,7 @@ D = 3.9033; alfa = 0.5091; beta = 0.5615;
 Wff = tf([sqrt(2*alfa*D)  sqrt(2*alfa*D)*sqrt(alfa^2+beta^2)],...
     [1 2*alfa alfa^2+beta^2]);
 % Start Simulink model
-sim('SimModel_6.slx');
+sim('T06_SimModel_01.slx');
 % Transfer Fcn of the augmented system
 Wrs = Wz*Wff;
 % Frequency domain analysis
