@@ -7,7 +7,7 @@
 %==========================================================================
 clc;clear;close all
 % Start Simulink model
-sim('SimModel_3.slx')
+sim('T03_SimModel_01.slx')
 % Initial data
 dt = 0.2; % step time 
 Tcor = 20; % time international interval
